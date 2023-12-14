@@ -14,7 +14,9 @@ Student ID: 9957122
 
 Department of Computer Engineering
 
-![](Aspose.Words.163f7e9f-4d66-4659-b096-df71a18744d7.005.png)Sheikhbahaee University
+![](Aspose.Words.163f7e9f-4d66-4659-b096-df71a18744d7.005.png)
+
+Sheikhbahaee University
 
 
 **Supervisor**
@@ -42,7 +44,9 @@ The implementation of ROM using VHDL furnishes designers with a powerful tool fo
 
 1. ### Hardware Design
 
-![](Aspose.Words.163f7e9f-4d66-4659-b096-df71a18744d7.006.jpeg)The design methodology initially aimed to develop a single-phase process for creating a representation of a Read-Only Memory (ROM) device with a capacity of 32 words by 8 bits. This means that the internal structure of the memory is comprised of 32 eight-bit words, which can also be understood as 1-byte words. Consequently, for addressing the individual memory cells (words), a 5-bit address line is required.
+![](Aspose.Words.163f7e9f-4d66-4659-b096-df71a18744d7.006.jpeg)
+
+The design methodology initially aimed to develop a single-phase process for creating a representation of a Read-Only Memory (ROM) device with a capacity of 32 words by 8 bits. This means that the internal structure of the memory is comprised of 32 eight-bit words, which can also be understood as 1-byte words. Consequently, for addressing the individual memory cells (words), a 5-bit address line is required.
 1. ### Initial Data Specification
 
 Within the domain of ROM design, a defining attribute is the intrinsic restriction against post-manufacturing data modification within the memory cells. ROM is engineered to maintain data in a static state, rendering it immutable during regular operational conditions. The process of data retrieval is inherently passive, involving selective activation of associated word lines coupled with the actuation of sense amplifiers, consequentially resulting in the output of pre-stored data.
@@ -59,11 +63,16 @@ Also define an empty list datatype to store generated data together, before rege
 
 
 
-![](Aspose.Words.163f7e9f-4d66-4659-b096-df71a18744d7.007.png)The standart output of the script is:
+![](Aspose.Words.163f7e9f-4d66-4659-b096-df71a18744d7.007.png)
+
+The standart output of the script is:
 
 ![](Aspose.Words.163f7e9f-4d66-4659-b096-df71a18744d7.008.png)
 
-![ref1]And the ‘randomData.txt’ file content is:
+And the ‘randomData.txt’ file content is:
+
+![ref1]
+
 
 
 
@@ -106,7 +115,9 @@ In the structural method, an in-depth understanding of the internal circuitry of
 
 ![](Aspose.Words.163f7e9f-4d66-4659-b096-df71a18744d7.013.png)
 
-![](Aspose.Words.163f7e9f-4d66-4659-b096-df71a18744d7.014.png)When detailing the internal circuitry of a memory array in a structural description, it is first necessary to define the various elements of the circuit as components. Subsequently, the connections between these components and the related input and output ports must be specified. Therefore, with reference to the internal architecture of the memory array, it becomes evident that there is a requirement for two distinct components: the decoder (‘dec’ is stand for ‘decoder’) and some logical ‘OR’ gates (‘Orc’ is stand for ‘OR Component’). These components must be appropriately sized to match the dimensions required by the memory array.
+![](Aspose.Words.163f7e9f-4d66-4659-b096-df71a18744d7.014.png)
+
+When detailing the internal circuitry of a memory array in a structural description, it is first necessary to define the various elements of the circuit as components. Subsequently, the connections between these components and the related input and output ports must be specified. Therefore, with reference to the internal architecture of the memory array, it becomes evident that there is a requirement for two distinct components: the decoder (‘dec’ is stand for ‘decoder’) and some logical ‘OR’ gates (‘Orc’ is stand for ‘OR Component’). These components must be appropriately sized to match the dimensions required by the memory array.
 
 In this design approach for a ROM memory, the decoder selection lines correspond to the memory address lines, and the memory output represents the initial data.
 
@@ -136,7 +147,9 @@ And in each line, we see some numbers between 0 and 31. For instance, it means t
 
 
 
-![](Aspose.Words.163f7e9f-4d66-4659-b096-df71a18744d7.017.png)Now, by having this data I can write a structural code for my ROM. I pass the decoder outputs into a conector signal, and connect the relative outputs of RAM to the coresponding bits of the conector signal to generate the correct data when it is turned on.
+![](Aspose.Words.163f7e9f-4d66-4659-b096-df71a18744d7.017.png)
+
+Now, by having this data I can write a structural code for my ROM. I pass the decoder outputs into a conector signal, and connect the relative outputs of RAM to the coresponding bits of the conector signal to generate the correct data when it is turned on.
 ![Light horizontal](Aspose.Words.163f7e9f-4d66-4659-b096-df71a18744d7.018.png)
 
 14
