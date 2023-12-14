@@ -1,0 +1,8 @@
+# conector(1), conector(2), conector(4), conector(5), conector(7), conector(8), conector(9), conector(10), conector(11), conector(12), conector(13), conector(17), conector(19), conector(21), conector(22), conector(23), conector(25), conector(26), conector(27), conector(28), conector(29), conector(30),
+# conector(1), conector(2), conector(3), conector(4), conector(7), conector(14), conector(15), conector(18), conector(19), conector(20), conector(23), conector(24), conector(25), conector(30), conector(31),
+# conector(2), conector(3), conector(4), conector(9), conector(10), conector(15), conector(20), conector(22), conector(23), conector(25), conector(27), conector(29),
+# conector(2), conector(4), conector(7), conector(8), conector(10), conector(14), conector(17), conector(18), conector(22), conector(26), conector(30), conector(31),
+# conector(0), conector(2), conector(3), conector(5), conector(7), conector(8), conector(9), conector(10), conector(11), conector(13), conector(14), conector(15), conector(20), conector(22), conector(25), conector(28),
+# conector(0), conector(1), conector(6), conector(8), conector(15), conector(17), conector(21), conector(22), conector(23), conector(25), conector(28), conector(30), conector(31),
+# conector(0), conector(3), conector(5), conector(9), conector(10), conector(12), conector(15), conector(17), conector(20), conector(22), conector(23), conector(24), conector(25), conector(26), conector(31),
+# conector(1), conector(3), conector(5), conector(9), conector(10), conector(12), conector(16), conector(23), conector(25), conector(28), conector(29),
